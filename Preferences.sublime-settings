@@ -1,0 +1,9 @@
+{
+	"color_scheme": "Packages/User/Soda/Espresso Soda.tmTheme",
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"soda_folder_icons": true,
+	"theme": "Soda Light 3.sublime-theme"
+}
