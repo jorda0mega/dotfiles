@@ -1,0 +1,6 @@
+# Starship config file loaded based on terminal
+if test "$TERM_PROGRAM" != "WarpTerminal"
+  set -x STARSHIP_CONFIG "$HOME/.config/starship/default/starship.toml" # for any terminal
+else
+  set -x STARSHIP_CONFIG "$HOME/.config/starship/default/starship.toml" # for Warp
+end
