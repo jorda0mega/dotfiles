@@ -6,7 +6,7 @@
 # === Prompt-wide configurations ===
 palette = 'cyberpunk'
 command_timeout = 1500       # Default timeout for commands is 500ms
-add_newline = true           # A blank line before prompt start
+add_newline = false           # A blank line before prompt start
 
 format = """
 $character\
