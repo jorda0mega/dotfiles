@@ -5,8 +5,8 @@
 
 # === Prompt-wide configurations ===
 palette = 'cyberpunk'
-command_timeout = 1500       # Default timeout for commands is 500ms
-add_newline = false           # A blank line before prompt start
+command_timeout = 5000       # Default timeout for commands is 500ms
+add_newline = true           # A blank line before prompt start
 
 format = """
 $character\
@@ -302,7 +302,7 @@ flamingo = "#bd93f9"   # Purple
 pink = "#ff92df"       # Brighter pink
 mauve = "#bd93f9"      # Purple
 red = "#ff5555"        # Bright red (for contrast)
-maroon = "#ff79c6"     # Light pink
+maroon = "#5a41da"     # Light pink
 peach = "#ffb86c"      # Orange (for contrast)
 yellow = "#f1fa8c"     # Neon yellow (for contrast)
 green = "#50fa7b"      # Neon green (for contrast)
